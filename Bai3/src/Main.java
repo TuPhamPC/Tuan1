@@ -39,10 +39,6 @@ public class Main {
         int[] nums = {5, 6, 7,8, 15};
         int target = 8;
         int[] result = findFirstAndLastPosition(nums, target);
-        if (result[0]==result[1]){
-            result[1]=-1;
-        }
-
         System.out.println("Vị trí đầu tiên: " + result[0]);
         System.out.println("Vị trí cuối cùng: " + result[1]);
     }
